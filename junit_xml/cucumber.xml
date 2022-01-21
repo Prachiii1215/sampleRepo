@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="71.624143">
+    <testcase classname="validate multiple items are searched" name="Search multiple item search result" time="43.09049">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When validate user is logged in and on homepage.............................passed
+Then user enters "iphone11" in searchbar and clicks search button...........passed
+Then validate search result related to "iphone11" is displayed..............passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="validate multiple items are searched" name="Search multiple item search result 2" time="28.533653">
+        <system-out><![CDATA[Given user is on Login Page.................................................passed
+When validate user is logged in and on homepage.............................passed
+Then user enters "trimmer" in searchbar and clicks search button............passed
+Then validate search result related to "trimmer" is displayed...............passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
